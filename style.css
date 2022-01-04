@@ -54,17 +54,21 @@ p {
   background-image: url(Photos/Others/mid-banner.png);
   background-repeat: no-repeat;
   background-position: right;
+  background-position-y: bottom;
   background-size: 12%;
 }
 .box-shadow {
   box-shadow: 10px 10px 8px 10px gray;
   width: 50%;
-  margin-right: 5%;
+  margin-right: 5px;
   text-align: justify;
   margin-left: 5%;
   padding-right: 0;
   padding-left: 5px;
   border-radius: 5px;
+}
+.box-shadow p {
+  padding-right: 5px;
 }
 .bottom-banner {
   background-image: url(Photos/Others/bottom-banner.png);
