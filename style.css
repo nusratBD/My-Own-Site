@@ -8,14 +8,21 @@ h1 {
 .special-text {
   color: rgb(194, 194, 25);
 }
-h3 {
+h2 {
   font-family: "Pushster", cursive;
+}
+h3 {
+  color: rgb(194, 194, 25);
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 p {
   font-family: "Poppins", sans-serif;
+  text-align: justify;
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -39,4 +46,9 @@ section {
 .top-banner {
   background-image: url(Photos/Others/top-banner.png);
   background-repeat: no-repeat;
+}
+.mid-banner {
+  background-image: url(Photos/Others/mid-banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
