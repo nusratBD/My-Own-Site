@@ -1,3 +1,24 @@
-body{
-    font-family: 'Pushster', cursive;
+h1 {
+  font-size: 40px;
+  font-family: "Pushster", cursive;
+}
+.special-text {
+  color: rgb(194, 194, 25)
+}
+h3 {
+  font-family: "Pushster", cursive;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+.half-width img {
+  width: 80%;
+  border-radius: 50%;
 }
